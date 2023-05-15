@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="Stylesheet_billing.css">
+<title>Billing</title>
+</head>
+<body>
+	<div style="margin:auto; max-width:100%; padding-right:45px; padding-left:45px;">
+		<div class="NAVBAR" style="display: flex; align-items: center; padding: 10px;">
+		
+		   <div style="float: left;">
+			<ul style="list-style-type: none;">
+			   <li style="display: inline-block;"> 
+				   
+					   <a href="index.html" style="text-decoration: none; background-color: #345EFD; color: white; border-radius: 40px; padding: 6px 20px;"> <font style="font-size: 3; font-family: verdana;">HOME</font></a> 
+			   </li>
+				
+				<li style="display: inline-block;"> 
+				   
+					   <a href="user.html" style="text-decoration: none; background-color: #345EFD; color: white; border-radius: 40px; padding: 6px 20px;"> <font style="font-size: 3; font-family: verdana;">USER PROFILE</font></a> 
+			   </li>
+			</ul>   
+			
+		   </div>
+			
+			<div>
+			
+				<font color="#FFFFFF">_______________________</font>
+				
+			</div>
+			
+		   <div style="align-content: center; border-radius: 30px; padding 5px; background-color: #091D3B; float: left;">
+			   <h1><font style="font-family: verdana; color: white;"><center><b>Checkout/Billing</b></center></font></h1>
+		   </div>
+		
+		   <nav style="text-align: right; flex: 1;">
+
+			   <ul style="list-style-type: none;">
+			
+				
+				   <li style="display: inline-block;">
+					   <a href="billing.html" style="text-decoration: none; background-color: #345EFD; color: white; border-radius: 40px; padding: 6px 20px;"> <font style="font-size: 3; font-family: verdana;"> &#x1F6D2; CART</font> </a>
+				   </li>
+				
+				   <li style="display: inline-block;">
+					   <a href="login.html" style="text-decoration: none; background-color: #091D3B; color: white; border-radius: 40px; padding: 6px 20px;"><font style="font-size: 3; font-family: verdana;">SIGN OUT</font></a>
+				   </li>
+			   </ul>
+		   </nav>
+	   </div>
+	</div>	
+	<div class="row">
+		<div class="col-75">
+			<div style= "background-color:#091D3B; margin-left: 90px" class="container">
+				<form style= "background-color:#091D3B;" action="billing.html">
+					<div class="row">
+						<div class="col-58">
+							<h2><font color="white"> Delivery Details </font></h2>
+							<label for="fname"><i class="fa fa-user"></i><font color="white">Full Name,</font></label>
+							<input type="text" id="fname" name="first name" placeholder="Metthew Marcel" required>
+							<label for="email"><i class="fa fa-envelope"></i><font color="white">Email</font></label>
+							<input type="text" id="email" name="email" placeholder="Metthew.Marcel@yahoo.com" required>							
+							<label for="adr"><i class="fa fa-address-caed-o"></i><font color="white">Address</font></label>
+							<input type="text" id="adr" name="address" placeholder="216b bakerstreet, London" required>							
+							<label for="city"><i class="fa fa-institution"></i><font color="white">City</font></label>
+							<input type="text" id="city" name="city" placeholder="New York City" required>
+				<div class="row">
+					<div class="col-50">
+						<label for="phone number"><font color="white"> Contact Number</font> </label>
+						<input type="tel" id="phone" name="phone" placeholder="03xx-xxxxxxx" required>
+					</div>			
+				</div>			
+						</div>
+						
+						<div class="col-50">
+							<h2><font color="white"> Payment Details </font></h2>
+							<label for="fname"> <font color="white">Accepted Card</font> </label>
+							<p><font color="white"><b><u>Visa/mastercard</u></b></font></p>
+							<label for="cname"> <font color="white">Name on Credit Card</font> </label>
+							<input type="text" id="cname" name="cardnumber" placeholder="Metthew Marcel" required>
+							
+							<label for="ccnum"> <font color="white">Credit Card Number </font></label>
+							<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+							
+							<label for="expmonth"><font color="white"> Expiry Month </font></label>
+							<input type="text" id="expmonth" name="expmonth" placeholder="January">
+							<div class="row" required>
+								<div class="col-50">
+									<label for="expyear"> <font color="white">Expiry Year</font> </label>
+									<input type="text" id="expyear" name="expyear" placeholder="20xx" required>
+								</div>								
+							</div>
+						</div>
+						<label>
+						<input type="checkbox" checked="checked" name="sameadr"> <font color="white">Shipping address same as billing</font></label>
+						<input type="submit" value="Confirm Details" class="btn">
+						
+					</div>
+				</form>
+					
+			</div>	
+		</div>
+		<div class="col-25">
+			<div style= "background-color:#091D3B; margin-right: 50px;" class="container">
+			<h3><font color="white"> Cart </font><span class="price" style="color:  black;"><i class="fa fa-shopping-cart"></i><b><font color="white">3</font></b></span></h3>
+			<p> <a href="#" style="text-decoration: none; color: white;"> Nike Black Grippers </a><span class="price"> RS-1899 </span></p>
+			<p> <a href="#" style="text-decoration: none; color: white;"> Cricket Shoes </a><span class="price"> RS-2599 </span></p>
+			<p> <a href="#" style="text-decoration: none; color: white;"> Purple Heels </a><span class="price"> RS-1099 </span></p>
+			<hr>
+			<p> <font color="white">Total <span class="price" style="color: black;"><b><font color="white">RS-5597 </font></b></span></font></p>
+			</div>
+		</div>
+	</div>
+	<div style="height: 50px; background-color: #091D3B;">
+		<font style="font-size:13px;  color: white; text-align: center; font-family: verdana;" > 
+			<p>COPYRIGHT ©️ 2020 All Rights Reserved</p> 
+			<p>Creators: Abdullah Saqib and Rayed Saeed</p>
+	    </font>
+	</div>
+</body>
+</html>

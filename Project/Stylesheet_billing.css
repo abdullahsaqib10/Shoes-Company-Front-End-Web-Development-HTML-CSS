@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 17px;
+	padding: 8px;
+	background-image: url("background image shoes.jpg");
+}
+h1{
+	text-align: center;
+	
+}
+*{
+	box-sizing: border-box;
+	
+}
+.row{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flexbox: wrap;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+	
+}
+.col-25{
+	-ms-flex:25%;
+	flex:25%;
+}
+.col-50{
+	-ms-flex:50%;
+	flex:50%;
+	
+}
+.col-75{
+	-ms-flex:50%;
+	flex:50%;
+}
+.col-25,.col-50,.col-75{
+	padding:0 16px;
+}
+.container{
+	background-color: white;
+	padding: 3px 18px 13px 18px;
+	border: 1px solid #B7B5B5;
+	border-radius: 3px;
+	
+}
+input[type=text]{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #E7E7E7;
+	border-radius: 3px;
+	
+}
+label{
+	margin-bottom: 10px;
+	display: block;
+	
+}
+.icon-container{
+	margin-bottom: 20px;
+	padding: 7px 0;
+	font-size: 24px;
+	
+}
+.btn{
+	background-color: white;
+	color: solid #000000;
+	font: bold;
+	padding: 12px;
+	border: none;
+	width: 100%;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 17px;
+	
+}
+.btn:hover{
+	background-color: lightblue;
+	
+}
+a{
+	border: 1px solid #C4C4C4
+}
+span.price{
+	float:right;
+	color:grey;
+}
